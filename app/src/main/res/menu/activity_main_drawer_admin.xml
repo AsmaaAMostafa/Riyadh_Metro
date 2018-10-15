@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+        <item
+            android:id="@+id/view_trip"
+            android:title="View Trip"
+            android:icon="@drawable/art_train"
+            />
+
+
+        <item
+            android:id="@+id/view_metro"
+            android:title="View Metro"
+            android:icon="@drawable/ic_directions_transit_black_24dp"
+            />
+
+
+        <item
+            android:id="@+id/view_metro_monitor"
+            android:title="View Monitors"
+            android:icon="@drawable/ic_group_black_24dp"
+            />
+
+
+
+        <item
+            android:id="@+id/sing_out"
+            android:title="Sing out"
+            android:icon="@drawable/ic_directions_walk_black_24dp"
+            />
+
+
+
+
+</menu>

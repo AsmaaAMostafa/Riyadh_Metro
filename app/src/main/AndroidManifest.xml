@@ -6,6 +6,8 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
+
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -14,15 +16,48 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".LogoActivity">
+
+        </activity>
+        <activity android:name=".MainActivity"
+                >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SingupActivity" />
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".SinginActivity"/>
+        <activity android:name=".SigninActivity"/>
+        <activity android:name=".manageTrip.ViewTripActivity">
+
+        </activity>
+        <activity android:name=".manageTrip.TripListViewActivity">
+
+        </activity>
+        <activity android:name=".manageTrip.AddTripActivity">
+
+        </activity>
+        <activity android:name=".SignupActivity">
+
+        </activity>
+        <activity android:name=".manageTrip.EditTripAvtivity"/>
+        <activity android:name=".mangeMetroMonitor.MetroMonitorListViewActivity"/>
+        <activity android:name=".mangeMetroMonitor.EditMetroMonitorActivity"/>
+        <activity android:name=".mangeMetroMonitor.CreateMonitorAccount"/>
+        <activity android:name=".mangeMetroMonitor.ViewMetroMonitorActivity"/>
+        <activity android:name=".assign.AssignedMetroListViewActivity"/>
+        <activity android:name=".manageMetro.addMetro"/>
+        <activity android:name=".manageMetro.ViewMetroActivity"/>
+        <activity android:name=".manageMetro.EditMetroActivity"/>
+        <activity android:name=".manageMetro.MetroListViewActivity"/>
+        <activity android:name=".assign.AssignedMonitorToMetroActivity"/>
+        <activity android:name=".manageTicket.ViewTicketActivity"/>
+        <activity android:name=".manageTicket.TicketListViewActivity"/>
+        <activity android:name=".buyTicket.BuyClass"/>
+        <activity android:name=".buyTicket.ViewTripAndBuyActivity"/>
+        <activity android:name=".manageUser.ChangeUserPassword" />
+        <activity android:name=".manageUser.EditUserAccount" />
+        <activity android:name=".manageUser.ViewUserAccountActivity"></activity>
+        <activity android:name=".ResetPasswordActivity"/>
+
     </application>
 
 </manifest>
